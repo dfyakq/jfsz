@@ -1,37 +1,49 @@
-# Get Started
+# 快速开始
 
-This is a normal page, which contains VuePress basics.
+这是一个演示页面，展示了VuePress的基础功能。
 
-## Pages
+## 页面
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site. 
+你可以在VuePress目录中添加markdown文件，每个markdown文件都会被转换为网站中的一个页面。
 
-See [routing][] for more details.
+查看[路由][routing]了解更多详情。
 
-## Content
+## 内容
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+每个markdown文件都会[被渲染为HTML，然后转换为Vue单文件组件][content]。
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+VuePress支持基础的markdown语法和[一些扩展][synatex-extensions]，你也可以[在其中使用Vue特性][vue-feature]。
 
-## Configuration
+## 配置
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+VuePress使用`.vuepress/config.js`（或.ts）文件作为[站点配置][config]，你可以用它来配置你的站点。
 
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
+对于[客户端配置][client-config]，你可以创建`.vuepress/client.js`（或.ts）。
 
-Meanwhile, you can also add configuration per page with [frontmatter][].
+同时，你也可以使用[frontmatter][]为每个页面添加配置。
 
-## Layouts and customization
+## 布局和自定义
 
-Here are common configuration controlling layout of `@vuepress/theme-default`:
+以下是控制`@vuepress/theme-default`布局的常见配置：
 
-- [navbar][]
-- [sidebar][]
+- [导航栏][navbar]
+- [侧边栏][sidebar]
 
-Check [default theme docs][default-theme] for full reference.
+查看[默认主题文档][default-theme]获取完整参考。
 
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
+你可以通过`.vuepress/styles/index.scss`文件[添加额外样式][style]。
+
+## 示例导航
+
+本站点包含以下主要部分：
+
+- **首页** - 网站主页
+- **快速开始** - 当前页面，介绍基础概念
+- **指南** - 完整的使用指南，包含多级侧边栏
+  - 基础知识 - 快速上手、目录结构、配置等
+  - 进阶内容 - 主题开发、插件开发、部署等
+
+点击导航栏中的"指南"查看多级侧边栏的示例效果！
 
 [routing]: https://vuejs.press/guide/page.html#routing
 [content]: https://vuejs.press/guide/page.html#content
