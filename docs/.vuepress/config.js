@@ -16,32 +16,40 @@ export default defineUserConfig({
       '/get-started',
       {
         text: '指南',
-        link: '/guide/',
+        link: '/jfsz/',
       },
     ],
 
     sidebar: {
-      '/guide/': [
+      '/jfsz/': [
+        {
+          text: '序',
+          children: ['/jfsz/序.md'],
+        },
+        {
+          text: '第一章',
+          children: ['/jfsz/第一章.md'],
+        },
         {
           text: '指南',
-          children: ['/guide/README.md'],
+          children: ['/jfsz/README.md'],
         },
         {
           text: '基础',
           children: [
-            '/guide/essentials/README.md',
-            '/guide/essentials/getting-started.md',
-            '/guide/essentials/directory-structure.md',
-            '/guide/essentials/config.md',
+            '/jfsz/essentials/README.md',
+            '/jfsz/essentials/getting-started.md',
+            '/jfsz/essentials/directory-structure.md',
+            '/jfsz/essentials/config.md',
           ],
         },
         {
           text: '进阶',
           children: [
-            '/guide/advanced/README.md',
-            '/guide/advanced/theme-development.md',
-            '/guide/advanced/plugin-development.md',
-            '/guide/advanced/deployment.md',
+            '/jfsz/advanced/README.md',
+            '/jfsz/advanced/theme-development.md',
+            '/jfsz/advanced/plugin-development.md',
+            '/jfsz/advanced/deployment.md',
           ],
         },
       ],
