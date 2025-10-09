@@ -23,16 +23,16 @@ export default defineUserConfig({
     sidebar: {
       '/jfsz/': [
         {
-          text: '目录',
           children: ['/jfsz/0.md'],
         },
         {
-          text: '自序',
           children: ['/jfsz/1.md'],
         },
         {
-          text: '第一章',
           children: ['/jfsz/2.md'],
+        },
+        {
+          children: ['/jfsz/3.md'],
         },
       ],
     },
